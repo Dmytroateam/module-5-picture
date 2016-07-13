@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+background:white;
+}
+
+tr {height:40px;
+}
+.down {
+  height:25px;
+}
+th {width: 50px;}
+
+table {border-collapse: collapse;
+position: absolute;
+left:350px;
+top:75px;
+border: 9px solid black;}
+
+td, th {
+  
+    border: 8px solid black; /* Параметры рамки */}
+    .red {background: red;}
+    .yel {background: yellow;}
+    .blu {background: blue;}
+    .black {background: black;}
