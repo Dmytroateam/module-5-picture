@@ -1,28 +1,50 @@
-*{
-  margin: 0;
-  padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
 body {
-background:white;
+    background: white;
+    width: 1200px;
+    height: 700px;
+    margin: auto;
 }
-
-tr {height:40px;
+.pict {
+    position: relative;
+}
+table {
+    width: 500px;
+    height: 540px;
+    border: 2px solid black;
+}
+tr {
+    height: 40px;
 }
 .down {
-  height:25px;
+    height: 25px;
 }
-th {width: 50px;}
-
-table {border-collapse: collapse;
-position: absolute;
-left:350px;
-top:75px;
-border: 9px solid black;}
-
-td, th {
-  
-    border: 8px solid black; /* Параметры рамки */}
-    .red {background: red;}
-    .yel {background: yellow;}
-    .blu {background: blue;}
-    .black {background: black;}
+th {
+    width: 50px;
+}
+table {
+    border-collapse: collapse;
+    position: absolute;
+    left: 350px;
+    top: 75px;
+    border: 9px solid black;
+}
+td,
+th {
+    border: 8px solid black;
+}
+.red {
+    background: red;
+}
+.yel {
+    background: yellow;
+}
+.blu {
+    background: blue;
+}
+.black {
+    background: black;
+}
